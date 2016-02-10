@@ -46,3 +46,47 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+
+Keyboard bindings
+-----------------
+
+M-p             Dmenu
+M-Shift-Return  terminal
+M-j             cycle windows
+M-k             cycle windows
+M-i             increment master
+M-d             decrement master
+M-h             decrement master size
+M-l             increment master size
+M-Shift-x       kill client
+M-Return        zoom
+M-Tab           swap view back and forth
+M-Shift-c       kill client
+M-t             set layout 0
+M-f             set layout 1
+M-m             set layout 2 (maximized)
+M-Space         set layout (cycle?)
+M-Shift-Space   toggle floating
+M-1..9          switch view
+M-0             all views
+M-Shift-0..9    tag client to view (0 will tag for all views!)
+M-period        focus monitor (decrement)
+M-comma         focus monitor (increment)
+M-Shift-period  tag client to monitor (decrement)
+M-Shift-comma   tag client to monitor (increment)
+M-Shift-q       quit
+M-Ctrl-0..9     toggle view
+M-Ctrl-Shift-0..9 toggle tag
+
+
+Mouse bindings
+--------------
+
+Left-click tagbar:   show clients with tag.
+Left-M-click tagbar: swap client tag.
+Right-click tagbar:  add clients with tag.
+Right-M-click:       add tag to client.
+Left-M window:       float & move
+Middle-M window:     float
+Right-M window:      float & resize
